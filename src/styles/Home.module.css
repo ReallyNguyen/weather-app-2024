@@ -85,11 +85,18 @@
 }
 
 .day {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   color: #fff;
-  background-color: #75A6DA;
+  background-color: #75a6da97;
   text-align: center;
   border-radius: 15px;
   width: 50%;
+}
+
+.left {
+  text-align: left;
 }
 
 .footer {
