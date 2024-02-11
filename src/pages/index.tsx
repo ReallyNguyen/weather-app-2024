@@ -28,8 +28,9 @@ export default function Home() {
   };
 
   const roundUp = (number: number) => {
-    return Math.round(number)
-  }
+    return parseFloat(number.toFixed(1));
+  };
+  
 
   const toCelsius = (celsius: number) => {
     return celsius - 273.15;
