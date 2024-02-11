@@ -53,10 +53,8 @@ export default function Home() {
         return "/icon/cloud.svg";
       case "Rain":
         return "/icon/rain.svg";
-      case "Drizzle":
-        return "/icon/drizzle.png";
-      case "Thunderstorm":
-        return "/icon/thunderstorm.svg";
+      case "Snow":
+        return "/icon/snow.svg";
       case "Sun":
         return "/icon/sun.svg"
       default:
